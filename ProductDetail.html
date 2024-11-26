@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Moses Yanga Jacksocarolineboutique website. 2pages .">
+
+    <head>
+        <!-- Favicon -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> 
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet">
+      
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome for Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.hero {
+  background-image: url('images/images.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  animation: fadeIn 2s ease-in;
+}
+
+.animated-title {
+  animation: slideIn 1s ease-out;
+}
+
+/* Product Card Hover Animation */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Links */
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Product Card Animations */
+.product-card .card {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* Slide-in Animation */
+.hidden {
+  opacity: 0;
+  transform: translateX(-100px); /* Start position off-screen */
+}
+
+.visible {
+  opacity: 1;
+  transform: translateX(0); /* End position in-place */
+}
+
+/* Add a delay for staggered animations */
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+
+
+    </style>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="div class container">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><img src="images/Logo-removebg-preview (3) - Copy - Copy.png " width="80px"
+            height="80px"></a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                
+            </li>
+
+            </li>
+
+            <ul class="navbar-nav ml-auto">
+
+                <a class="nav-link" href="chart.html">
+                    <ol><i class="fa fa-shopping-cart fa-2x"><span id="cartCounter"
+                                class="cart-counter">0</span></li></i>
+                </a>
+                </ol>
+            </ul>
+        </nav>
+        </nav>
+        <div class="icon-bar">
+            <a href="https://www.facebook.com" class="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="hhtps:www.google.com" target="_blank" class="google"><i class="fab fa-google"></i></a>
+            <a href="https:www.linkedin" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="htps:www.youtube.com" class="youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero bg-primary text-white text-center py-5">
+    <div class="container">
+      <h2 class="animated-title">Welcome to Caroline Boutique</h2>
+      <p class="lead">Explore the latest trends and timeless styles.</p>
+      <button class="btn btn-light btn-lg">Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+   
+  <section id="shop" class="py-5">
+    <div class="container">
+      <h3 class="text-center mb-4">Our Collection</h3>
+      <div class="row g-4">
+        <!-- Product Card -->
+        <div class="col-md-4 col-sm-6 product-card">
+          <div class="card slide-in hidden">
+            <img src="images/handbag.jpeg" alt="Ladies Handbags" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Ladies Handbags</h3>
+              <p class="card-text text-muted">$20.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-4 col-sm-6 product-card">
+          <div class="card slide-in hidden">
+            <img src="images/WINTER.jpeg" alt="Winter Jacket" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Winter Jacket</h3>
+              <p class="card-text text-muted">$150.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-md-4 col-sm-6 product-card">
+          <div class="card slide-in hidden">
+            <img src="images/SUYUNYGLASSESS.jpeg" alt="Sunglasses" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Sunglasses</h3>
+              <p class="card-text text-uted">$45.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 product-card">
+          <div class="card slide-in hidden">
+            <img src="images/dress1.png" class="card-img-top" alt="Product 1">
+            <div class="card-body text-center">
+             
+              <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span>                              
+               <span class="text-muted">&#9733;</span>
+                <h5 class="card-title">Turkish Wear</h5>
+                 <p class="card-text">$50.00</p> 
+                 <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 product-card">
+          <div class="card slide-in hidden">
+                <img src="images/louis.jpeg" alt="louisVutton" class="card-img-top">
+                <div class="card-body text-center">
+                  <div class="product-rating mb-2">
+                    <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                    <span class="text-warning">&#9733;</span>
+                    <span class="text-warning">&#9733;</span>
+                    <span class="text-muted">&#9733;</span>
+                    <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+                  </div>
+                    <h3 class="card-title">Louis Vutton Bag</h3>
+                    <p class="card-text text-muted">$43</p>
+                    <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+              <img src="images/dress11.png" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <div class="product-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="empty">&#9733;</span>
+                    <span class=" empty">&#9733;</span>
+                  </div>
+                <h5 class="card-title">Karabian</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card with Ratings -->
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+      <img src="images/louis.jpeg" alt="Product Name" class="card-img-top">
+      <div class="card-body text-center">
+        <h3 class="card-title">louis Vutton</h3>
+        <!-- Product Rating -->
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star empty">&#9733;</span>
+        </div>
+        <p class="card-text text-muted">$50.00</p>
+        <button class="custom-btn add-to-cart">Shop Now</button>
+      </div>
+    </div>
+  </div>
+  
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/timberland.png" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <!-- Product Rating -->
+        <div class="product-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="empty">&#9733;</span>
+            <span class=" empty">&#9733;</span>
+          </div>
+                <h5 class="card-title">Timberland</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/balanciaga.png" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <div class="product-rating mb-2">
+                  <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-muted">&#9733;</span>
+                  <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+                </div>
+                <h5 class="card-title">Balaciaga</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+              <img src="images/gentle.png" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Gentle Clothes</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+              <img src="images/shoes.jpeg" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Jordan</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+              <img src="images/bags-Copy-png" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <div class="product-rating mb-2">
+                  <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-muted">&#9733;</span>
+                  <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+                </div>
+                <h5 class="card-title">Sandals</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+              <img src="images/dress14.png" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <div class="product-rating mb-2">
+                  <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-muted">&#9733;</span>
+                  <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+                </div>
+                <h5 class="card-title">Daniel Alves</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+              <img src="images/product1.jpg" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Classic T-shirt</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-cart">Shop Now</button>
+                 </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+              <img src="images/cover.jpg" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Casual Tops</h5>
+                <p class="card-text">$50.00</p>
+                <button class="custom-btn add-to-chart" >Show Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/watch3 - Copy.jpg" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Smart Watch</h5>
+                <p class="card-text">$50.00</p> 
+                <button class="custom-btn add-to-chart" >Show Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+                <img src="images/dior.png" alt="Dior Jackets" class="card-img-top">
+                <div class="card-body text-center">
+                    <h3 class="card-title"> Dior Hat</h3>
+                    <p class="card-text text-muted">$10</p>
+                    <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+              <img src="images/dress9.png" alt="casual" class="card-img-top">
+              <div class="card-body text-center">
+                  <h3 class="card-title">Ladies Feeys</h3>
+                  <p class="card-text text-muted">$52</p>
+                  <button class="custom-btn add-to-cart">Shop Now</button>
+              </div>
+
+              </div>
+            </div>
+          </div>
+        <!-- Repeat cards for more products -->
+      </div>
+    </div>
+  </section>
+
+
+ <section class="featured-products py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Featured Products</h2>
+      <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/light dress .png" alt="Floral Dress" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Floral Dress</h3>
+              <p class="card-text text-muted">$120.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/images.jpeg" alt="Evening Gown" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Evening Gown</h3>
+              <p class="card-text text-muted">$220.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/handbag.jpeg" alt="Ladies Handbags" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Ladies Handbags</h3>
+              <p class="card-text text-muted">$20.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/WINTER.jpeg" alt="Winter Jacket" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Winter Jacket</h3>
+              <p class="card-text text-muted">$150.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/SUYUNYGLASSESS.jpeg" alt="Sunglasses" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">Sunglasses</h3>
+              <p class="card-text text-uted">$45.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100">
+            <img src="images/shoe.jpeg" alt="High Heels" class="card-img-top">
+            <div class="card-body text-center">
+              <h3 class="card-title">High Heels</h3>
+              <p class="card-text text-muted">$80.00</p>
+              <button class="custom-btn add-to-cart">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add other products similarly... -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta-section text-center py-5 bg-dark text-white">
+    <h3 class="glow">TRENDING FASHION</h3>
+    <a href="shop.html" class="btn btn-lg btn-light">Shop Now</a>
+  </section>
+  <section class="featured-products py-5">
+	<div class="container">
+	
+		<div class="row g-4">
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/classic.png" alt="Product 1" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Floral Dress</h3>
+						<p class="card-text text-muted">$120.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/dress6.png" alt="Product 2" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Evening Gown</h3>
+						<p class="card-text text-muted">$220.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/handbag.jpeg" alt="Product 3" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Ladies Handbags</h3>
+						<p class="card-text text-muted">$20.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</button>
+					</div>
+				</div>
+			</div>
+
+      <div class="col-md-4 col-sm-6 product-card">
+        <div class="card slide-in hidden">
+    <img src="images/sandles.jpeg" alt="casual" class="card-img-top">
+    <div class="card-body text-center">
+        <div class="product-rating mb-2">
+            <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+            <span class="text-warning">&#9733;</span>
+            <span class="text-warning">&#9733;</span>
+            <span class="text-muted">&#9733;</span>
+            <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+          </div>
+						<h3 class="card-title">Classic Sandles</h3>
+						<p class="card-text text-muted">$220.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+
+					</div>
+				</div>
+			</div>
+
+
+      <div class="col-md-4 col-sm-6 product-card">
+        <div class="card slide-in hidden">
+    <img src="images/images.jpg" alt="casual" class="card-img-top">
+    <div class="card-body text-center">
+        <div class="product-rating mb-2">
+            <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+            <span class="text-warning">&#9733;</span>
+            <span class="text-warning">&#9733;</span>
+            <span class="text-muted">&#9733;</span>
+            <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+          </div>
+						<h3 class="card-title">Turkish Casual </h3>
+						<p class="card-text text-muted">$50</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+			</div>
+
+      <div class="col-md-4 col-sm-6 product-card">
+        <div class="card slide-in hidden">
+    <img src="images/summer.jpeg" alt="casual" class="card-img-top">
+    <div class="card-body text-center">
+        <div class="product-rating mb-2">
+            <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+            <span class="text-warning">&#9733;</span>
+            <span class="text-warning">&#9733;</span>
+            <span class="text-muted">&#9733;</span>
+            <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+          </div>
+						<h3 class="card-title">Summer Top</h3>
+						<p class="card-text text-muted">$20</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+			</div>
+
+      <div class="col-md-4 col-sm-6 product-card">
+        <div class="card slide-in hidden">
+    <img src="images/gucci.jpeg" alt="casual" class="card-img-top">
+    <div class="card-body text-center">
+        <div class="product-rating mb-2">
+            <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+            <span class="text-warning">&#9733;</span>
+            <span class="text-warning">&#9733;</span>
+            <span class="text-muted">&#9733;</span>
+            <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+          </div>
+						<h3 class="card-title">Gucci Bag</h3>
+						<p class="card-text text-muted">$20.</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+			</div>
+
+      <div class="col-md-4 col-sm-6 product-card">
+        <div class="card slide-in hidden">
+    <img src="images/dress14.png" alt="casual" class="card-img-top">
+    <div class="card-body text-center">
+        <div class="product-rating mb-2">
+            <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+            <span class="text-warning">&#9733;</span>
+            <span class="text-warning">&#9733;</span>
+            <span class="text-muted">&#9733;</span>
+            <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+          </div>
+						<h3 class="card-title">Daniel Alves</h3>
+						<p class="card-text text-muted">$20</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card border-0 shadow h-100">
+					<img src="images/dress7.jpeg" alt="Product 3" class="card-img-top">
+					<div class="card-body text-center">
+						<h3 class="card-title">Casual Top</h3>
+						<p class="card-text text-muted">$50.00</p>
+						<button class="custom-btn add-to-cart">Shop Now</a>
+					</div>
+				</div>
+
+</section>
+<div class="cta">
+<section class="cta-section text-center py-5 bg-dark text-white">
+	<div class="container"></div>
+		<h3 class="glow">NEW ARRIVALS</H2>
+			<a href="shop.html" class="btn btn-lg btn-light">Shop Now</a>
+	</div>
+</section>
+</div>
+
+<div class="container-fluid">
+	<div class="row g-4">
+        <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+        <img src="images/handbag.jpeg" alt="casual" class="card-img-top">
+        <div class="card-body text-center">
+            <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span>
+                <span class="text-muted">&#9733;</span>
+                <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+              </div>
+					<h3 class="card-title">Classic Handbag</h3>
+					<p class="card-text text-muted">$99.00</p>
+					<button class="custom-btn add-to-cart">Shop Now</a>
+				</div>
+			</div>
+		</div>
+        <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+        <img src="images/ice.jpg" alt="casual" class="card-img-top">
+        <div class="card-body text-center">
+            <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+              </div>
+					<h3 class="card-title">Ice belt</h3>
+					<p class="card-text text-muted">$80</p>
+					<button class="custom-btn add-to-cart">Shop Now</a>
+				</div>
+			</div>
+		</div>
+        <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+        <img src="images/ladies - Copy (2).jpg" alt="casual" class="card-img-top">
+        <div class="card-body text-center">
+            <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+              </div>
+					<h3 class="card-title">Ladies Steppers</h3>
+					<p class="card-text text-muted">$99.00</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+	
+                <div class="col-md-4 col-sm-6 product-card">
+                    <div class="card slide-in hidden">
+				<img src="images/j4.jpg" alt="casual" class="card-img-top">
+				<div class="card-body text-center">
+                    <div class="product-rating mb-2">
+                        <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                        <span class="text-warning">&#9733;</span>
+                        <span class="text-warning">&#9733;</span>
+                        <span class="text-warning">&#9733;</span>
+                        <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+                      </div>
+					<h3 class="card-title">jordan 4</h3>
+					<p class="card-text text-muted">$52</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+        <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+        <img src="images/summer.jpeg" alt="casual" class="card-img-top">
+        <div class="card-body text-center">
+            <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+              </div>
+					<h3 class="card-title">Classic SummerHats</h3>
+					<p class="card-text text-muted">$24.00</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+        <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+        <img src="images/jacket.jpeg" alt="casual" class="card-img-top">
+        <div class="card-body text-center">
+            <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+              </div>
+					<h3 class="card-title">Bomba jacket</h3>
+					<p class="card-text text-muted">$230</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+        <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+        <img src="images/louis.jpeg" alt="casual" class="card-img-top">
+        <div class="card-body text-center">
+            <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+              </div>
+					<h3 class="card-title">Louis Vutton Bag</h3>
+					<p class="card-text text-muted">$43</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+
+        <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+        <img src="images/watch3 - Copy.jpg" alt="casual" class="card-img-top">
+        <div class="card-body text-center">
+            <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+              </div>
+					<h3 class="card-title">Rolex</h3>
+					<p class="card-text text-muted">$80</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+				</div>
+			</div>
+		</div>
+        <div class="col-md-4 col-sm-6 product-card">
+            <div class="card slide-in hidden">
+        <img src="images/airforce.jpeg" alt="casual" class="card-img-top">
+        <div class="card-body text-center">
+            <div class="product-rating mb-2">
+                <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-warning">&#9733;</span>
+                <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+              </div>
+					<h3 class="card-title">Nike Airforce</h3>
+					<p class="card-text text-muted">$30</p>
+					<button class="custom-btn add-to-cart">Shop Now</button>
+
+				</div>
+			</div>
+		</div>
+    <div class="col-md-4 col-sm-6 product-card">
+      <div class="card slide-in hidden">
+  <img src="images/amiri.webp" alt="casual" class="card-img-top">
+  <div class="card-body text-center">
+      <div class="product-rating mb-2">
+          <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+          <span class="text-warning">&#9733;</span>
+          <span class="text-warning">&#9733;</span>
+          <span class="text-warning">&#9733;</span>
+          <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+        </div>
+    <h3 class="card-title">Amiri</h3>
+    <p class="card-text text-muted">$40</p>
+    <button class="custom-btn add-to-cart">Shop Now</button>
+  </div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 product-card">
+  <div class="card slide-in hidden">
+<img src="images/mouse3 - Copy.jpg" alt="casual" class="card-img-top">
+<div class="card-body text-center">
+  <div class="product-rating mb-2">
+      <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+      <span class="text-warning">&#9733;</span>
+      <span class="text-warning">&#9733;</span>
+      <span class="text-warning">&#9733;</span>
+      <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+    </div>
+<h3 class="card-title">Dior tshirt</h3>
+<p class="card-text text-muted">$10</p>
+<button class="custom-btn add-to-cart">Shop Now</button>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 product-card">
+  <div class="card slide-in hidden">
+<img src="images/timberland.png" alt="casual" class="card-img-top">
+<div class="card-body text-center">
+  <div class="product-rating mb-2">
+      <span class="text-warning">&#9733;</span> <!-- Filled Star -->
+      <span class="text-warning">&#9733;</span>
+      <span class="text-warning">&#9733;</span>
+      <span class="text-warning">&#9733;</span>
+      <span class="text-muted">&#9733;</span> <!-- Empty Star -->
+    </div>
+<h3 class="card-title">Timberland</h3>
+<p class="card-text text-muted">$60</p>
+<button class="custom-btn add-to-cart">Shop Now</button>
+</div>
+</div>
+</div>
+<div class="footer">
+  <div class="row gy-4">
+    <!-- Column 1: About -->
+    <div class="col-md-3">
+    <div class="column">
+      <h4 style="color:white;">About Us</h4>
+      <p>We are dedicated to providing top-notch services to our clients, ensuring satisfaction and excellence in every project.</p>
+    </div>
+    <div class="column mt-3">
+      <h4 "color:white;">Quick Links</h4>
+      <div class="quick-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <a href="#">FAQs</a>
+      </div>
+    </div>
+    </div>
+    <!-- Column 2: Contact Form -->
+    <div class="col-md-3">
+    <div class="column">
+      <h4>Contact Us</h4>
+      <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+    </div>
+    <!-- Column 3: Services -->
+    <div class="col-md-3">
+    <img src="images/Logo-removebg-preview (3) - Copy - Copy.png" width="80px" height="80px"/>
+    <div class="column">
+      <h4>Services</h4>
+      <ul>
+      <li>Web Development</li>
+      <li>Mobile App Development</li>
+      <li>Digital Marketing</li>
+      <li>Graphic Design</li>
+      </ul>
+    </div>
+    <div class="column mt-3" class="icon">
+      <h4>Payment Methods</h4>
+      <div class="payment-icons">
+      <i class="fab fa-cc-visa" class="visa"></i>
+      <i class="fab fa-cc-mastercard" class="card"></i>
+      <i class="fab fa-cc-paypal" class="master"></i>
+      <i class="fas fa-university" class="uni"></i> <!-- For bank transfer -->
+      </div>
+    </div>
+    </div>
+    <!-- Column 4: Social Media, Mobile App, Newsletters -->
+    <div class="col-md-3">
+    <div class="column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="column mt-3">
+      <h4>Mobile App</h4>
+      <p>Download our mobile app for easy access:</p>
+      <a href="#"><i class="fab fa-apple fa-2x"></i></a>
+      <a href="#"><i class="fab fa-google-play fa-2x"></i></a>
+    </div>
+    <div class="column mt-3">
+      <h4>Newsletter</h4>
+      <p>Subscribe to our newsletter to get the latest updates:</p>
+      <form>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Enter your email">
+      </div>
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+    </div>
+    <p class="text-center" style="color:rgb(255, 255, 255);">   
+          &copy; 2024 Caroline Boutique designed by Yang G. All reserved.</p>      
+                <a href="#" class="back-to-top" title="Back to Top"><i class="fab fa-arrow-up"></i>
+  </div>
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</div>
+</div>
+</body>
+</html>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Programmatically open the modal
+    const myModal = new bootstrap.Modal(document.getElementById('myModal'));
+    myModal.show();
+  });
+
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.product-card .card');
+
+  // Function to check if an element is in the viewport
+  const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    return rect.top < window.innerHeight && rect.bottom >= 0;
+  };
+
+  // Function to reveal cards when they enter the viewport
+  const revealCards = () => {
+    cards.forEach((card) => {
+      if (isInViewport(card)) {
+        card.classList.add('visible');
+        card.classList.remove('hidden');
+      }
+    });
+  };
+
+  // Trigger on scroll and initial load
+  window.addEventListener('scroll', revealCards);
+  revealCards(); // Run once on page load
+});
+ document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.product-card .card');
+
+  // Function to check if an element is in the viewport
+  const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    return rect.top < window.innerHeight && rect.bottom >= 0;
+  };
+
+  // Function to reveal cards when they enter the viewport
+  const revealCards = () => {
+    cards.forEach((card) => {
+      if (isInViewport(card)) {
+        card.classList.add('visible');
+        card.classList.remove('hidden');
+      }
+    });
+  };
+
+  // Trigger on scroll and initial load
+  window.addEventListener('scroll', revealCards);
+  revealCards(); // Run once on page load
+});
+
+    
+    </script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+                      </a>
+    </div>
+  
+</body>
+</html>
